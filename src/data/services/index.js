@@ -6,8 +6,8 @@ import typescriptMigration from "./typescript-migration";
 import freeTools from "./free-tools";
 
 export const servicesSection = {
-  title: "Créons ensemble \nquelque chose de grand",
-  text: "Internet est un outil puissant pour façonner l'avenir, mais il évolue constamment. Adaptation et documentation du code sont essentielles.",
+  title: "Créons ensemble \ndes solutions robustes",
+  text: "Avec TypeScript et une documentation claire, la fiabilité et la maintenabilité de vos projets est assurée. Ensemble, transformons vos idées en réalités durables et performantes.",
   services: [
     typescriptMigration,
     proTools,
@@ -17,3 +17,4 @@ export const servicesSection = {
     freeTools
   ],
 };
+
