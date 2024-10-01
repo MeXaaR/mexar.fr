@@ -1,5 +1,4 @@
 import ContextProvider from "@/context/ContextProvider";
-import { appWithTranslation } from 'next-i18next'
 
 import "@/vendors/animate.css";
 import "@/vendors/custom-animate.css";
@@ -26,4 +25,4 @@ const MyApp = ({ Component, pageProps }) => {
   );
 };
 
-export default appWithTranslation(MyApp);
+export default MyApp;

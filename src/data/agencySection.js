@@ -1,7 +1,5 @@
-import image from "@/images/resource/featured.jpg";
-
 const agencySection = {
-  image,
+  image: "/images/resource/featured.jpg",
   title: "Agence adaptative inhabituelle",
   text: "L'adaptation a toujours été la clé de la survie sur notre planète. Je suis ici pour vous aider à vous adapter au paysage numérique en constante évolution. Mon expertise vous aidera à naviguer dans le monde numérique et à vous assurer de rester en avance sur la concurrence.",
   tabBtns: [

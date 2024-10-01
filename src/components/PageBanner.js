@@ -1,4 +1,3 @@
-import bg from "@/images/background/parallax-bg-1-4.jpg";
 import Link from "next/link";
 import React from "react";
 
@@ -12,7 +11,7 @@ const PageBanner = ({
     <section className="page-banner">
       <div
         className="image-layer"
-        style={{ backgroundImage: `url(${bg.src})` }}
+        style={{ backgroundImage: `url(/images/background/parallax-bg-1-4.jpg)` }}
       ></div>
       <div className="shape-1"></div>
       <div className="shape-2"></div>

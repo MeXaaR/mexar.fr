@@ -1,9 +1,7 @@
-import image from "@/images/gallery/labdata.jpg";
-
 export const carrierWebApp = {
   title: "LabData Carrier",
   clients: "Carrier",
-  image: image,
+  image: "/images/gallery/labdata.jpg",
   images: ["labdata.jpg"],
   preview: "Outil Professionnel",
   text: "Développement d'une plateforme interne pour Carrier permettant de gérer et de visualiser les données des essais réalisés en laboratoire sur des machines de climatisation, de froid et de chaud. L'application facilite l'affichage, la création et la personnalisation de graphiques en séries temporelles sur plusieurs milliers de points de données.",

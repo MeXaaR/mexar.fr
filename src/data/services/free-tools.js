@@ -1,6 +1,3 @@
-import image from "@/images/services/free-tools.jpg";
-import featuredImage from "@/images/services/featured-free-tools.jpg";
-
 const info = {
     id: 6,
     icon: "flaticon-computer",
@@ -11,13 +8,13 @@ const info = {
 }
 
 const details = {
-    image,
+    image: "/images/services/free-tools.jpg",
     text1:
         "En plus de mes prestations de services, je consacre une partie de mon temps à la création et à la contribution à des outils gratuits. Je crois fermement que les développeurs ont la responsabilité de partager leurs compétences pour aider non seulement d'autres développeurs, mais aussi les graphistes, entrepreneurs et toute personne ayant besoin de ressources accessibles et efficaces.",
     featuredTitle: "Outils Gratuits pour la Communauté",
     featuredText:
         "Je développe des outils gratuits qui répondent aux besoins variés des professionnels et des passionnés. Ces outils sont conçus pour être faciles à utiliser, personnalisables et extensibles, permettant à chacun de tirer le meilleur parti de ses compétences et de ses projets.",
-    featuredImage,
+    featuredImage: "/images/services/featured-free-tools.jpg",
     features: [
         "Création d'outils gratuits pour développeurs, graphistes et entrepreneurs",
         "Contributions actives à des projets open-source",

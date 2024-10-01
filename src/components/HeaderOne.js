@@ -40,7 +40,7 @@ const HeaderOne = ({
             <div className="right-content">
               <div className="phone">
                 <span className="icon flaticon-call"></span>
-                <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>
+                <a href={`tel:${phone.split(" ")?.join("")}`}>{phone}</a>
               </div>
               <ul className="list-unstyled social-links">
                 {socials.map(({ id, icon, href }) => (
@@ -68,7 +68,7 @@ const HeaderOne = ({
                   <a title={title}>
                     <Image
                       id="thm-logo"
-                      src={Logo.src}
+                      src={Logo}
                       alt={title}
                       title={title}
                     />
@@ -110,7 +110,7 @@ const HeaderOne = ({
                   <div className="call-us">
                     <a
                       className="link"
-                      href={`tel:${phone.split(" ").join("")}`}
+                      href={`tel:${phone.split(" ")?.join("")}`}
                     >
                       <span className="icon"></span>
                       <span className="sub-text">Appelez-moi</span>

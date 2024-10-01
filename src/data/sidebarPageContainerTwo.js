@@ -1,5 +1,3 @@
-import image from "@/images/resource/news-7.jpg";
-
 export const blogPage = {
   title: "Delivering the best digital marketing",
   text: "There are many variations of passages of available but majority have alteration in some by inject humour or random words. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.",
@@ -144,7 +142,7 @@ export const sidebar = {
 };
 
 export const blogDetails = {
-  image,
+  image: "/images/resource/news-7.jpg",
   date: "20 Mar",
   admin: "Admin",
   title: "basic rules of running web agency business",

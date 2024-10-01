@@ -1,6 +1,3 @@
-import image from "@/images/services/typescript-migration.jpg";
-import featuredImage from "@/images/services/featured-typescript-migration.jpg";
-
 const info = {
     id: 5,
     icon: "flaticon-monitor",
@@ -11,13 +8,13 @@ const info = {
 }
 
 const details = {
-    image,
+    image: "/images/services/typescript-migration.jpg",
     text1:
         "Fort d'une expérience répétée dans divers projets, je me spécialise dans la migration de code JavaScript vers TypeScript, incluant une documentation complète. J'ai constaté les nombreuses problématiques liées à un code non typé et non documenté, et TypeScript est la solution qu'il manquait à JavaScript pour offrir une robustesse et une maintenabilité optimales. En adoptant TypeScript, les entreprises peuvent réduire les coûts de maintenance, accélérer le développement et éviter des erreurs coûteuses.",
     featuredTitle: "TypeScript, Documentation & Maintenabilité",
     featuredText:
         "TypeScript apporte un typage strict et une structure qui rendent votre code plus sûr et plus facile à maintenir. Grâce à des méthodologies éprouvées, je réalise des migrations adaptées à des projets de toutes tailles. Un code bien typé et documenté diminue les temps de développement futurs et optimise les ressources techniques.",
-    featuredImage,
+    featuredImage: "/images/services/featured-typescript-migration.jpg",
     features: [
         "Migration JavaScript vers TypeScript, réduisant erreurs et bugs",
         "Documentation exhaustive pour meilleure compréhension et maintenance",

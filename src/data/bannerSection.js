@@ -1,3 +1,4 @@
+import { socials } from "./header";
 
 export const bannerOne = {
   bg: "background.jpg",
@@ -6,18 +7,18 @@ export const bannerOne = {
   socials: [
     {
       id: 1,
-      href: "#",
+      href: socials[0].href,
       title: "LinkedIn",
     },
     {
       id: 2,
-      href: "#",
+      href: "https://malt.fr/profile/francoisaubeutgervaise?",
       title: "Malt",
     },
     {
       id: 3,
-      href: "#",
-      title: "Facebook",
+      href: socials[1].href,
+      title: "GitHub",
     },
   ],
   banners: {

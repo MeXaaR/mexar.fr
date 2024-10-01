@@ -1,35 +1,28 @@
-import icon from "@/images/icons/close-1-1.png";
-import logo1 from "@/images/logo.png";
 import { servicesSection } from "./services/index";
 
 export const socials = [
   {
-    id: 1,
-    icon: "fab fa-facebook-square",
-    href: "#",
-  },
-  {
-    id: 2,
-    icon: "fab fa-twitter",
-    href: "#",
-  },
-  {
     id: 3,
-    icon: "fab fa-instagram",
-    href: "#",
+    icon: "fab fa-linkedin",
+    href: "https://www.linkedin.com/in/fran%C3%A7ois-aubeut-85b213319/",
   },
   {
-    id: 4,
-    icon: "fab fa-pinterest-p",
-    href: "#",
+    id: 1,
+    icon: "fab fa-github",
+    href: "https://github.com/MeXaaR/",
   },
+  // {
+  //   id: 2,
+  //   icon: "fab fa-facebook",
+  //   href: "#",
+  // },
 ];
 
 const headerData = {
   title: "Mexar - Développeur TypeScript",
   title2: "Bienvenue chez Mexar.",
   title3: "Bienvenue chez Mexar.",
-  logo1,
+  logo1: "/images/logo.png",
   navItems: [
     {
       id: 1,
@@ -70,7 +63,7 @@ const headerData = {
   phone: "+33 7 68 98 3000",
   phone2: "+33 7 68 98 3000",
   email: "contact@mexar.com",
-  icon,
+  icon: "/images/icons/close-1-1.png",
   socials,
   text: "Mexar est une agence digitale spécialisée dans la création d'application mobiles et d'outils professionnels. Votre produit sera livré avec un code solidement documenté",
 };

@@ -23,7 +23,7 @@ const SingleTestimonial = (
             <Link href="/team">
               <a>
                 <Image
-                  src={require(`@/images/resource/${image}`).default.src}
+                  src={`/images/resource/${image}`}
                   alt=""
                 />
               </a>

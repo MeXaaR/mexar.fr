@@ -1,5 +1,3 @@
-import image from "@/images/services/ai-smart-coding.jpg";
-import featuredImage from "@/images/services/featured-ai-smart-coding.jpg";
 
 const info = {
     id: 4,
@@ -11,13 +9,13 @@ const info = {
 }
 
 const details = {
-    image,
+    image: "/images/services/ai-smart-coding.jpg",
     text1:
         "L'intelligence artificielle est au cœur de ma méthode de travail quotidienne. En utilisant des outils avancés et des services d'IA que j'ai personnalisés moi-même, je parviens à accomplir mes tâches de manière plus efficace et rapide. Cependant, mon expertise humaine me permet d'accomplir ce que l'IA ne peut pas faire, garantissant ainsi des solutions complètes et de haute qualité pour vos projets.",
     featuredTitle: "Outils d'IA Utilisés et Personnalisés",
     featuredText:
         "Pour maximiser l'efficacité et la qualité de mon travail, j'intègre divers services d'IA dans mon flux de travail quotidien. Ces outils sont non seulement utilisés tels quels, mais également personnalisés pour répondre spécifiquement aux besoins de chaque projet. Cette synergie entre IA et expertise humaine assure des résultats optimaux.",
-    featuredImage,
+    featuredImage: "/images/services/featured-ai-smart-coding.jpg",
     features: [
         "Utilisation quotidienne de ChatGPT pour la génération de contenu et l'assistance",
         "Personnalisation d'outils d'IA pour répondre aux besoins spécifiques de chaque projet",

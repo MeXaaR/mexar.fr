@@ -16,7 +16,7 @@ const ComingSoonSection = () => {
   return (
     <section
       className="coming-soon"
-      style={{ backgroundImage: `url(${bg.src})` }}
+      style={{ backgroundImage: `url(${bg})` }}
     >
       <div className="auto-container">
         <Row>

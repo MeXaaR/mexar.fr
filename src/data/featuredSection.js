@@ -1,7 +1,5 @@
-import image from "@/images/resource/featured.jpg";
-
 const featuredSection = {
-  image,
+  image: "/images/resource/featured.jpg",
   title: "CRÉEZ DES APPLICATIONS SANS TOUCHER AU CODE",
   text: "Des appétences différentes pour chacun, coder et créer de nouvelles choses est une passion. Laissez-nous nous occuper de cela pour créer l'application parfaite pour votre entreprise.",
   features: [

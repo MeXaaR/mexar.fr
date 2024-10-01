@@ -61,7 +61,7 @@ const SponsorsSection = ({ className = "" }) => {
                     <a href="#">
                       <Image
                         src={
-                          require(`@/images/clients/${image}`).default.src
+                          `/images/clients/${image}`
                         }
                         alt=""
                       />

@@ -1,9 +1,7 @@
-import image from "@/images/gallery/make.jpg";
-
 export const makeOrgMigration = {
     title: "Migration de Make.org",
     clients: "Make.org",
-    image: image,
+    image: "/images/gallery/make.jpg",
     images: ["make.jpg"],
     preview: "Site internet",
     text: "Migration d'une plateforme React JS vers TypeScript, incluant la réorganisation complète de deux projets en un seul monorepo à l'aide de Yarn et Lerna. Ce projet de deux mois a nécessité une compréhension approfondie d'une base de code non documentée pour la transformer en une codebase typée, claire et facilement maintenable grâce à TypeScript. L'objectif principal était d'améliorer la robustesse et la maintenabilité du code, tout en facilitant le travail des développeurs futurs.",

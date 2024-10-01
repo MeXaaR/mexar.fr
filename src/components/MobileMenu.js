@@ -26,7 +26,7 @@ const MobileMenu = ({ onePage = false }) => {
             onClick={toggleMenu}
             className="side-menu__toggler side-menu__close-btn"
           >
-            <Image src={icon.src} alt="" />
+            <Image src={icon} alt="" />
           </a>
         </div>
 
@@ -47,7 +47,7 @@ const MobileMenu = ({ onePage = false }) => {
           <p>{text}</p>
           <p>
             <a href={`mailto:${email}`}>{email}</a> <br />{" "}
-            <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>
+            <a href={`tel:${phone.split(" ")?.join("")}`}>{phone}</a>
           </p>
           <div className="side-menu__social">
             {socials.map(({ id, icon, href }) => (

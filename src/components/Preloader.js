@@ -1,7 +1,6 @@
-import bg1 from "@/images/loader.png";
 import React from "react";
 
-const Preloader = ({ loading, bg = bg1, className = "" }) => {
+const Preloader = ({ loading, className = "" }) => {
   return (
     <div
       style={{
@@ -9,7 +8,7 @@ const Preloader = ({ loading, bg = bg1, className = "" }) => {
       }}
       className={`preloader animated${loading ? "" : " fadeOut"} ${className}`}
     >
-      <div style={{ backgroundImage: `url(${bg.src})` }} className="icon"></div>
+      <div style={{ backgroundImage: `url(/images/loader.png)` }} className="icon"></div>
     </div>
   );
 };

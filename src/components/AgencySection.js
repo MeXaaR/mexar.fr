@@ -54,7 +54,7 @@ const AgencySection = () => {
               <div className="text">{text}</div>
               <div className="featured-block-two clearfix">
                 <div className="image">
-                  <Image src={image.src} alt="" />
+                  <Image src={image} alt="" />
                 </div>
                 <div className="text">
                   <ul>

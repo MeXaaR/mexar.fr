@@ -1,6 +1,3 @@
-import image from "@/images/services/protools-1.jpg";
-import featuredImage from "@/images/services/featured-pro-tools.jpg";
-
 const info = {
     id: 1,
     icon: "flaticon-responsive",
@@ -11,13 +8,13 @@ const info = {
 }
 
 const details = {
-    image,
+    image: "/images/services/protools-1.jpg",
     text1:
         "Je suis spécialisé dans la création d'outils web professionnels sur mesure, en mettant un accent particulier sur l'utilisation de TypeScript pour garantir un code robuste et maintenable. Que vous ayez besoin d'une plateforme applicative, d'un outil de visualisation de données pour un laboratoire, ou d'un système de gestion pour une usine, j'ai l'expertise nécessaire pour transformer vos idées en réalité. Ensemble, nous concevrons des solutions innovantes et efficaces qui propulseront votre entreprise vers de nouveaux sommets.",
     featuredTitle: "TypeScript, Documentation & Maintenabilité",
     featuredText:
         "Pour assurer la pérennité et la qualité de vos outils, j'utilise TypeScript pour un typage strict, une documentation complète du code et une architecture pensée pour une maintenabilité optimale. Ces pratiques garantissent que vos outils resteront évolutifs et faciles à maintenir à long terme.",
-    featuredImage,
+    featuredImage: "/images/services/featured-pro-tools.jpg",
     features: [
         "Utilisation de TypeScript pour un code sécurisé et typé",
         "Documentation détaillée pour faciliter la compréhension et la maintenance",

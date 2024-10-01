@@ -1,9 +1,7 @@
-import image from "@/images/gallery/actinspace.jpg";
-
 export const actinspace = {
     title: "ActInSpace Toulouse",
     clients: "Aerospace Valley",
-    image: image,
+    image: "/images/gallery/actinspace.jpg",
     images: ["actinspace.jpg"],
     preview: "Application Mobile",
     text: "Développement d'une plateforme web et d'applications mobiles associées pour l'événement mondial ActInSpace. Cet outil héberge le site web ainsi que toutes les fonctionnalités nécessaires au bon déroulement de l'événement.",

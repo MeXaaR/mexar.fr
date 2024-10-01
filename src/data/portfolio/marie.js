@@ -1,9 +1,7 @@
-import image from "@/images/gallery/marie.jpg";
-
 export const marieAure = {
     title: "Marie-Aure",
     clients: "Marie-Aure",
-    image: image,
+    image: "/images/gallery/marie.jpg",
     images: ["marie.jpg"],
     preview: "Site Internet",
     text: "Création de la structure complète du site web de Marie-Aure sur la plateforme Squarespace. Marie-Aure est guide naturaliste, photographe et artiste, et le site est conçu pour refléter son univers unique et ses compétences professionnelles. L'objectif principal était de développer un site esthétique, fonctionnel et facile à naviguer, mettant en valeur son portfolio photographique, ses services de guidage et ses œuvres artistiques.",

@@ -1,9 +1,7 @@
-import image from "@/images/gallery/lacartonomades-icon.png";
-
 export const lacartonomades = {
   title: "La Carto'Nomades",
   featured: "lacartonomades.png",
-  image,
+  image: "/images/gallery/lacartonomades-icon.png",
   images: [
     "lacartonomades-1.png",
     "lacartonomades-2.png",

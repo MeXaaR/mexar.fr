@@ -10,13 +10,13 @@ const GalleryItem = ({ item = {} }) => {
       lg={4}
       md={6}
       sm={12}
-      className={`gallery-item position-absolute ${filter.join(" ")}`}
+      className={`gallery-item position-absolute ${filter?.join(" ")}`}
     >
       <Link href={`/portfolio/${slug}`}>
         <div className="inner-box">
           <figure className="image">
             <Image
-              src={require(`@/images/gallery/${image}`).default.src}
+              src={`/images/gallery/${image}`}
               alt=""
             />
           </figure>

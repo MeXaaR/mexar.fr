@@ -1,9 +1,7 @@
-import image from "@/images/gallery/appseducation.jpg";
-
 export const appsEducation = {
     title: "Apps.education.fr",
     clients: "Éducation Nationale",
-    image: image,
+    image: "/images/gallery/appseducation.jpg",
     images: ["appseducation.jpg"],
     preview: "Application Web",
     text: "Développement d'une plateforme d'applications Open-Source et libres de droit pour l'Éducation Nationale, permettant aux professeurs, instituteurs et autres fonctionnaires de communiquer et de travailler facilement sans recourir aux produits issus du GAFAM. Mon rôle principal était de faire avancer rapidement la création de la plateforme tout en formant deux autres développeurs aux techniques avancées de React et Meteor.",

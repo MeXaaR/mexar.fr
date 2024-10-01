@@ -1,7 +1,5 @@
-import image13 from "@/images/resource/francois-aubeut.jpeg";
-
 export const aboutMeOne = {
-  image: image13,
+  image: "/images/resource/francois-aubeut.jpeg",
   title: "François Aubeut",
   text: "Développeur passionné avec plusieurs années d'expérience, je me distingue par mon adaptabilité et mes compétences en gestion de projet. Ayant travaillé dans divers rôles et parcouru de nombreux pays, j'ai acquis une vision globale et une capacité à relever les défis avec efficacité.",
   text2:

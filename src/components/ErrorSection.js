@@ -12,7 +12,7 @@ const ErrorSection = () => {
         <div className="content">
           <div className="big-text">
             <Image
-              src={image.src}
+              src={image}
               id="error-404"
               className="img-fluid"
               alt=""
@@ -24,7 +24,7 @@ const ErrorSection = () => {
             <Link href="/">
               <a className="theme-btn btn-style-one">
                 <i className="btn-curve"></i>
-                <span className="btn-title">Retour à l'accueil</span>
+                <span className="btn-title">Retour à l&apos;accueil</span>
               </a>
             </Link>
           </div>

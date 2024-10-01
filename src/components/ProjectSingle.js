@@ -38,7 +38,7 @@ const ProjectSingle = ({ portfolio }) => {
 
             >
               <Image
-                src={require(`@/images/gallery/${featured}`).default.src} style={{ width: "100%" }}
+                src={`/images/gallery/${featured}`} style={{ width: "100%" }}
               />
             </Col>
           </Row>}
@@ -77,7 +77,7 @@ const ProjectSingle = ({ portfolio }) => {
                         </li>
                         <li>
                           <strong>Technologies:</strong> <br />
-                          {technologies.join(", ")}
+                          {technologies?.join(", ")}
                         </li>
                       </ul>
                     </div>
@@ -95,7 +95,7 @@ const ProjectSingle = ({ portfolio }) => {
             <div className="features">
               <div className="text">
                 <ul>
-                  {features.map((text, i) => (
+                  {features?.map((text, i) => (
                     <li key={i}>{text}</li>
                   ))}
                 </ul>
@@ -121,7 +121,7 @@ const ProjectSingle = ({ portfolio }) => {
             ))}
           </Row>
           <Row className="clearfix" style={{ marginTop: 50 }}>
-            {!!images.length && <Col lg={12} md={12} sm={12}>
+            {!!images?.length && <Col lg={12} md={12} sm={12}>
               <div className="inner">
                 <h5>SCREENSHOTS</h5>
               </div>
@@ -135,7 +135,7 @@ const ProjectSingle = ({ portfolio }) => {
                   sm={12}
                 >
                   <Image
-                    src={require(`@/images/gallery/${image}`).default.src}
+                    src={`/images/gallery/${image}`}
                     style={{ width: "100%" }}
                     alt=""
                   />

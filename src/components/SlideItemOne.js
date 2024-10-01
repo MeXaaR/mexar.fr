@@ -15,7 +15,7 @@ const SlideItemOne = ({ slide = {} }) => {
       <div
         className="image-layer"
         style={{
-          backgroundImage: `url(${require(`@/images/main-slider/${bg}`).default.src
+          backgroundImage: `url(${`/images/main-slider/${bg}`
             })`,
         }}
       ></div>
@@ -42,7 +42,7 @@ const SlideItemOne = ({ slide = {} }) => {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 

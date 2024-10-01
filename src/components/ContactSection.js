@@ -48,7 +48,7 @@ const ContactSection = ({ className = "", map = false, form = false }) => {
                         <a href={`mailto:${email}`}>{email}</a>
                       </li>
                       <li>
-                        <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>
+                        <a href={`tel:${phone.split(" ")?.join("")}`}>{phone}</a>
                       </li>
                     </ul>
                   </div>

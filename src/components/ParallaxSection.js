@@ -9,7 +9,7 @@ const { bg, icon, title, title2 } = parallaxSection;
 const ParallaxSection = () => {
   return (
     <Jarallax speed={0.3} imgPosition="50% 80%" className="parallax-section">
-      <JarallaxImage src={bg.src} />
+      <JarallaxImage src={bg} />
       <div className="auto-container">
         <div className="content-box">
           <div className="icon-box">

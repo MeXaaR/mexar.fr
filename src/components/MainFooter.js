@@ -35,7 +35,7 @@ const MainFooter = ({ normalPadding = true }) => {
                   <div className="logo">
                     <Link href="/">
                       <a>
-                        <Image id="fLogo" src={logo.src} alt="" />
+                        <Image id="fLogo" src={logo} alt="" />
                       </a>
                     </Link>
                   </div>
@@ -91,7 +91,7 @@ const MainFooter = ({ normalPadding = true }) => {
                     </li>
                     <li>
                       <span className="icon flaticon-call"></span>
-                      <a href={`tel:${phone.split(" ").join("")}`}>{phone}</a>
+                      <a href={`tel:${phone.split(" ")?.join("")}`}>{phone}</a>
                     </li>
                     <li>
                       <span className="icon flaticon-email-2"></span>
