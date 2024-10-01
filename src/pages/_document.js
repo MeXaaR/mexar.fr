@@ -36,10 +36,45 @@ class MyDocument extends Document {
             type="image/x-icon"
           />
           <link rel="icon" href="favicon.ico" />
-          <meta
-            name="description"
-            content="Linoor is a multipurpose and powerful Digital Services Agency NextJS Template. The template is highly suitable template for companies that offer web design, web development, internet services, digital marketing, SEO services and all other internet marketing and services related agencies and businesses."
-          />
+          {/* Titre de la page */}
+          <title>Mexar - Développeur Expert en TypeScript et Outils Sur Mesure</title>
+
+          {/* Description de la page */}
+          <meta name="description" content="Bienvenue sur Mexar.fr, Développeur spécialisé en TypeScript, React, et création d'outils professionnels sur mesure pour répondre aux besoins uniques de chaque projet." />
+
+          {/* Balises Open Graph pour les réseaux sociaux */}
+          <meta property="og:title" content="Mexar - François, Développeur Expert en TypeScript et Outils Sur Mesure" />
+          <meta property="og:description" content="Découvrez Mexar, un développeur passionné par TypeScript et la création d'outils professionnels personnalisés. Explorez des solutions innovantes et adaptées à vos besoins techniques." />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://mexar.fr" />
+          <meta property="og:image" content="https://mexar.fr/images/logo-dark.png" /> {/* Remplacez par l'URL de votre image */}
+
+          {/* Balises Twitter Card */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Mexar - Développeur Expert en TypeScript et Outils Sur Mesure" />
+          <meta name="twitter:description" content="Explorez le portfolio de Mexar, spécialisé en TypeScript et en développement d'outils professionnels sur mesure. Des solutions techniques avancées pour des besoins uniques." />
+          <meta name="twitter:image" content="https://mexar.fr/images/logo-dark.png" /> {/* Remplacez par l'URL de votre image */}
+
+          {/* Balise Canonical */}
+          <link rel="canonical" href="https://mexar.fr" />
+
+          {/* Favicon */}
+          <link rel="icon" href="/favicon.ico" />
+
+          {/* Balises supplémentaires pour le SEO */}
+          <meta name="robots" content="index, follow" />
+          <meta name="language" content="French" />
+          <meta name="author" content="François AUBEUT" />
+
+          {/* Balises pour les mobiles */}
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+          {/* Balise Theme Color */}
+          <meta name="theme-color" content="#ffffff" />
+
+          {/* Balises pour améliorer l'accessibilité et l'expérience utilisateur */}
+          <meta name="apple-mobile-web-app-title" content="Mexar" />
+          <meta name="application-name" content="Mexar" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />
