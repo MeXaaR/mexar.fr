@@ -1,7 +1,7 @@
 const featuredSection = {
   image: "/images/resource/featured.jpg",
   title: "CRÉEZ DES APPLICATIONS SANS TOUCHER AU CODE",
-  text: "Des appétences différentes pour chacun, coder et créer de nouvelles choses est une passion. Laissez-nous nous occuper de cela pour créer l'application parfaite pour votre entreprise.",
+  text: "Des appétences différentes pour chacun, coder et créer de nouvelles choses est une passion. Laissez-moi m'occuper de cela pour créer l'application parfaite pour votre entreprise.",
   features: [
     {
       id: 2,
@@ -11,7 +11,7 @@ const featuredSection = {
     {
       id: 3,
       title: "Migration et documentation",
-      text: "Votre application en JavaScript existe déjà et une migration vers TypeScript avec une documentation solide est souhaitée, c'est notre spécialité.",
+      text: "Votre application en JavaScript existe déjà et une migration vers TypeScript avec une documentation solide est souhaitée, c'est ma spécialité.",
     },
   ],
 };

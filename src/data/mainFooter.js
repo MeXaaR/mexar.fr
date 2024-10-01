@@ -5,7 +5,7 @@ export const footer = { year: new Date().getFullYear(), author: "mexar" };
 export const mainFooter = {
   logo: "/images/logo.png",
   bg: "/images/background/footer-bg-2.jpg",
-  text: "Bienvenue sur le site de Mexar. Ici, vous pouvez tout apprendre sur nos services et notre portfolio.",
+  text: "Bienvenue sur le site de Mexar. Ici, vous pouvez tout apprendre sur nos services et mon portfolio.",
   address: contactInfos.address,
   phone: contactInfos.phone,
   email: contactInfos.email,

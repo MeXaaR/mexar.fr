@@ -10,7 +10,7 @@ const info = {
 const details = {
     image: "/images/services/app-development.jpg",
     text1:
-        "Je suis spécialisé dans le développement d'applications mobiles personnalisées. Que vous ayez besoin d'une application native pour iOS ou Android, d'une application hybride ou d'une solution progressive, j'ai l'expertise nécessaire pour transformer vos idées en une application performante et intuitive. Ensemble, nous concevrons une application qui non seulement répond à vos exigences techniques, mais offre également une expérience utilisateur exceptionnelle, propulsant ainsi votre entreprise vers de nouveaux horizons.",
+        "Je suis spécialisé dans le développement d'applications mobiles personnalisées. Que vous ayez besoin d'une application native pour iOS ou Android, d'une application hybride ou d'une solution progressive, j'ai l'expertise nécessaire pour transformer vos idées en une application performante et intuitive. Ensemble, nous fabriquerons une application qui non seulement répond à vos exigences techniques, mais offre également une expérience utilisateur exceptionnelle, propulsant ainsi votre entreprise vers de nouveaux horizons.",
     featuredTitle: "Outils Utilisés",
     featuredText:
         "Pour garantir la qualité et la performance de vos applications, j'utilise des outils de pointe tels qu'EAS (Expo Application Services), React Native et TypeScript. Ces technologies permettent un développement rapide, une maintenance facilitée et une expérience utilisateur optimale.",
