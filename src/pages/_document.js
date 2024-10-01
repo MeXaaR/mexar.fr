@@ -43,7 +43,7 @@ class MyDocument extends Document {
           <meta name="description" content="Bienvenue sur Mexar.fr, Développeur spécialisé en TypeScript, React, et création d'outils professionnels sur mesure pour répondre aux besoins uniques de chaque projet." />
 
           {/* Balises Open Graph pour les réseaux sociaux */}
-          <meta property="og:title" content="Mexar - François, Développeur Expert en TypeScript et Outils Sur Mesure" />
+          <meta property="og:title" content="Mexar - Développeur Expert en TypeScript et Outils Sur Mesure" />
           <meta property="og:description" content="Découvrez Mexar, un développeur passionné par TypeScript et la création d'outils professionnels personnalisés. Explorez des solutions innovantes et adaptées à vos besoins techniques." />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://mexar.fr" />
