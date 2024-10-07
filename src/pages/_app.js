@@ -16,11 +16,13 @@ import "tiny-slider/dist/tiny-slider.css";
 import "@/styles/style.css";
 import "@/styles/hover.css";
 import "@/styles/responsive.css";
+import { Analytics } from "@vercel/analytics/react";
 
 const MyApp = ({ Component, pageProps }) => {
   return (
     <ContextProvider>
       <Component {...pageProps} />
+      <Analytics />
     </ContextProvider>
   );
 };
