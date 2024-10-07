@@ -1,4 +1,5 @@
 import ContextProvider from "@/context/ContextProvider";
+import { Analytics } from "@vercel/analytics/react";
 
 import "@/vendors/animate.css";
 import "@/vendors/custom-animate.css";
@@ -16,14 +17,16 @@ import "tiny-slider/dist/tiny-slider.css";
 import "@/styles/style.css";
 import "@/styles/hover.css";
 import "@/styles/responsive.css";
-import { Analytics } from "@vercel/analytics/react";
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-    <ContextProvider>
-      <Component {...pageProps} />
+    <>
+      <ContextProvider>
+        <Component {...pageProps} />
+      </ContextProvider>
+
       <Analytics />
-    </ContextProvider>
+    </>
   );
 };
 
