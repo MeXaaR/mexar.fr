@@ -1,5 +1,6 @@
 import { actinspace } from "./actinspace";
 import { appsEducation } from "./appeducation";
+import { auroraNow } from "./aurora-now";
 import { carrierWebApp } from "./labdata";
 import { lacartonomades } from "./lacartonomades"
 import { makeOrgMigration } from "./makeorg";
@@ -35,6 +36,15 @@ export const portfolioSection = {
     },
   ],
   items: [
+    {
+      id: 0,
+      image: "auroranow-prez.png",
+      title: "Aurora Now",
+      slug: "aurora-now",
+      tagline: "Projet Scientifique",
+      filter: ["all", "mobileapp"],
+      details: auroraNow
+    },
     {
       id: 1,
       image: "lacartonomades-icon.png",
