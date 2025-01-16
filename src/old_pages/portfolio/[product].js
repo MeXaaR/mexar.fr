@@ -8,7 +8,7 @@ import PostControl from "@/components/PostControl";
 import ProjectSingle from "@/components/ProjectSingle";
 
 import { portfolioSection } from "@/data/portfolio/portfolioSection";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import React from "react";
 
 const PortfolioSingle2 = () => {

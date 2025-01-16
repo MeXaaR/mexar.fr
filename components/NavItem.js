@@ -21,19 +21,17 @@ const SubItem = ({ subItem = {} }) => {
       className={`${subItems?.length ? "dropdown" : ""} ${pathname === href ? "current" : ""
         }`}
     >
-      <div className="nav-link-wrapper">
-        <Link passHref href={href}>
-          {name} {isNew && <span>new</span>}
-        </Link>
+      <Link href={href}>
+        {name} {isNew && <span>new</span>}
         {subItems?.length && (
-          <button
+          <div
             onClick={handleActive}
             className={`dropdown-btn${active ? " open" : ""}`}
           >
             <span className="fa fa-angle-right"></span>
-          </button>
+          </div>
         )}
-      </div>
+      </Link>
       <ul style={{ display: !menuStatus || active ? "block" : "none" }}>
         {subItems?.map((item) => (
           <li key={item.id}>
@@ -66,7 +64,7 @@ const NavItem = ({ navItem = {}, mobile = false, onePage = false }) => {
 
   return (
     <li className={`dropdown${current ? " current" : ""}`}>
-      <Link passHref href={href} onClick={() => mobile && href.includes("#") && toggleMenu()}>
+      <Link href={href} onClick={() => mobile && href.includes("#") && toggleMenu()}>
         {name}{" "}
         {subNavItems.length > 0 && (
           <div

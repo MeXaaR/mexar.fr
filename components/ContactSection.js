@@ -1,3 +1,5 @@
+'use client'
+
 import { contactSection } from "@/data/contactSection";
 import useActive from "@/hooks/useActive";
 import dynamic from "next/dynamic";

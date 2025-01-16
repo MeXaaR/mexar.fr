@@ -27,7 +27,7 @@ const GalleryItem = ({ item = {} }) => {
                 <span>{tagline}</span>
               </div>
               <div className="title">
-                <h5>{title}</h5>
+                <h5 style={{ color: 'var(--thm-gray)' }}>{title}</h5>
               </div>
             </div>
           </div>

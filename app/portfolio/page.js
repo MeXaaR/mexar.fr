@@ -4,34 +4,49 @@ import HeaderOne from "@/components/HeaderOne";
 import MobileMenu from "@/components/MobileMenu";
 import Layout from "@/components/Layout";
 import MainFooter from "@/components/MainFooter";
-import PostControl from "@/components/PostControl";
-import ProjectSingle from "@/components/ProjectSingle";
-import { portfolioSection } from "@/data/portfolio/portfolioSection";
-import { useRouter } from "next/router";
 import React from "react";
 
-const PortfolioSingle2 = () => {
-  const router = useRouter()
-  const product = router.query.product
-  const thisProductIndex = portfolioSection.items.findIndex(
-    (item) => item.slug === product
-  );
+export const metadata = {
+  title: 'Portfolio | Mexar - Creative Projects and Works',
+  description: 'Explore our diverse portfolio of creative projects, digital solutions, and innovative works. Discover how we bring ideas to life through design and technology.',
+  openGraph: {
+    title: 'Portfolio | Mexar - Creative Projects and Works',
+    description: 'Explore our diverse portfolio of creative projects, digital solutions, and innovative works. Discover how we bring ideas to life through design and technology.',
+    type: 'website',
+    locale: 'en_US',
+    images: [
+      {
+        url: '/images/og-portfolio.jpg', // Make sure this image exists in your public folder
+        width: 1200,
+        height: 630,
+        alt: 'Mexar Portfolio Projects',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Portfolio | Mexar - Creative Projects and Works',
+    description: 'Explore our diverse portfolio of creative projects, digital solutions, and innovative works.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: 'https://mexar.fr/portfolio',
+  }
+};
 
-  const thisProduct = portfolioSection.items[thisProductIndex];
-
+const Portfolio = () => {
   return (
-    <Layout pageTitle={thisProduct?.details.title}>
+    <Layout pageTitle="Portfolio">
       <HeaderOne />
       <MobileMenu />
-      <PageBanner parent="Portfolio" parentHref="/portfolio" title={thisProduct?.details.title} />
-      <ProjectSingle portfolio={product} />
-      <PostControl next={portfolioSection.items[thisProductIndex + 1] || portfolioSection.items[0]} previous={
-        portfolioSection.items[thisProductIndex - 1] || portfolioSection.items[portfolioSection.items.length - 1]
-      } />
-      <GallerySectionOne similar={false} />
+      <PageBanner title="Portfolio" />
+      <GallerySectionOne portfolio />
       <MainFooter />
     </Layout>
   );
 };
 
-export default PortfolioSingle2;
+export default Portfolio;

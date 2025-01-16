@@ -1,6 +1,8 @@
+'use client'
+
 import { sidebar } from "@/data/sidebarPageContainer";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import React from "react";
 
 const { title, title2, text, phone, navItems } = sidebar;

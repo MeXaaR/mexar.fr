@@ -7,7 +7,7 @@ import MainFooter from "@/components/MainFooter";
 
 import SidebarPageContainer from "@/components/SidebarPageContainer";
 import { servicesSection } from "@/data/services/index";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 import React from "react";
 
 const SingleService = () => {
