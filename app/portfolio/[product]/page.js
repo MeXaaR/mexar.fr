@@ -18,7 +18,7 @@ export async function generateMetadata({ params }) {
 
   return {
     title: `${thisProduct?.details.title} | Mexar Portfolio`,
-    description: thisProduct?.details.description || "Discover our amazing portfolio work at Mexar",
+    description: thisProduct?.details.description || "Découvrez notre incroyable travail de portfolio chez Mexar",
     openGraph: {
       title: `${thisProduct?.details.title} | Mexar Portfolio`,
       description: thisProduct?.details.description,
@@ -52,7 +52,7 @@ const Portfolio = async ({ params }) => {
   const thisProduct = portfolioSection.items[thisProductIndex];
 
   return (
-    <Layout pageTitle={thisProduct?.details.title}>
+    <Layout >
       <HeaderOne />
       <MobileMenu />
       <PageBanner parent="Portfolio" parentHref="/portfolio" title={thisProduct?.details.title} />

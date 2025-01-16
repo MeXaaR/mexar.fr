@@ -22,7 +22,7 @@ const HomeMain = () => {
         };
     }, []);
     return (
-        <Layout pageTitle="Page d'accueil">
+        <Layout>
             <HeaderOne />
             <MobileMenu />
             <BannerOne />

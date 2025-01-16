@@ -8,7 +8,7 @@ import React from "react";
 
 const Services2 = () => {
   return (
-    <Layout pageTitle="Services">
+    <Layout>
       <HeaderOne />
       <MobileMenu />
       <PageBanner title="Services" />

@@ -7,7 +7,6 @@ import { Link as ScrollLink } from "react-scroll";
 
 const Layout = ({
   children,
-  pageTitle,
   preloader,
   mainClass,
   preloaderClass,

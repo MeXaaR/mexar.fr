@@ -6,9 +6,21 @@ import Layout from "@/components/Layout";
 import MainFooter from "@/components/MainFooter";
 import React from "react";
 
+export const metadata = {
+  title: `Contact | ${TITLE}`,
+  description: 'Contactez Mexar, votre agence de développement web et mobile à Paris. Experts en création de sites web, applications mobiles et solutions digitales sur mesure.',
+  keywords: KEYWORDS,
+  openGraph: {
+    title: `Contact | ${TITLE}`,
+    description: 'Contactez Mexar, votre agence de développement web et mobile à Paris. Experts en création de sites web, applications mobiles et solutions digitales sur mesure.',
+    locale: 'fr_FR',
+    type: 'website',
+  },
+};
+
 const Contact = () => {
   return (
-    <Layout pageTitle="Contact">
+    <Layout>
       <HeaderOne />
       <MobileMenu />
       <PageBanner title="Contact" />

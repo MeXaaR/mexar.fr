@@ -8,7 +8,7 @@ import React from "react";
 
 const NotFound = () => {
     return (
-        <Layout pageTitle="404 Error">
+        <Layout>
             <HeaderOne />
             <MobileMenu />
             <PageBanner title="404 Error" />

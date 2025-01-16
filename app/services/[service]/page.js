@@ -61,7 +61,7 @@ const SingleService = async ({ params }) => {
   }
 
   return (
-    <Layout pageTitle={thisService.info.title}>
+    <Layout>
       <HeaderOne />
       <MobileMenu />
       <PageBanner

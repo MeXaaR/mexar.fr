@@ -19,6 +19,7 @@ import { Rubik, Teko, Barlow, Jost, DM_Sans } from 'next/font/google';
 import { Roboto_Condensed } from 'next/font/google';
 import { Kumbh_Sans } from 'next/font/google';
 import { Shadows_Into_Light } from 'next/font/google';
+import { DESCRIPTION, KEYWORDS, TITLE } from "@/data/titles";
 
 const rubik = Rubik({
     subsets: ['latin'],
@@ -73,21 +74,22 @@ const shadowsIntoLight = Shadows_Into_Light({
     variable: '--font-shadows-into-light',
 });
 
+
 export const metadata = {
-    title: "Mexar - Développeur Expert en TypeScript et Outils Sur Mesure",
-    description: "Bienvenue sur Mexar.fr, Développeur spécialisé en TypeScript, React, et création d'outils professionnels sur mesure pour répondre aux besoins uniques de chaque projet.",
-    keywords: ["TypeScript", "React", "Développeur", "Outils sur mesure"],
+    title: TITLE,
+    description: DESCRIPTION,
+    keywords: KEYWORDS,
     openGraph: {
-        title: "Mexar - Développeur Expert en TypeScript et Outils Sur Mesure",
-        description: "Découvrez Mexar, un développeur passionné par TypeScript et la création d'outils professionnels personnalisés. Explorez des solutions innovantes et adaptées à vos besoins techniques.",
+        title: TITLE,
+        description: DESCRIPTION,
         type: "website",
         url: "https://mexar.fr",
         image: "https://mexar.fr/images/logo-dark.png",
     },
     twitter: {
         card: "summary_large_image",
-        title: "Mexar - Développeur Expert en TypeScript et Outils Sur Mesure",
-        description: "Explorez le portfolio de Mexar, spécialisé en TypeScript et en développement d'outils professionnels sur mesure. Des solutions techniques avancées pour des besoins uniques.",
+        title: TITLE,
+        description: DESCRIPTION,
         image: "https://mexar.fr/images/logo-dark.png",
     },
     robots: "index, follow",
