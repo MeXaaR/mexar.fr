@@ -25,6 +25,6 @@ export const bannerOne = {
     id: 1,
     bg: "background.jpg",
     subtitle: "Bienvenue chez Mexar",
-    title: "Développeur\nTypeScript",
+    title: "Développeur\nWeb & Mobile",
   },
 };

@@ -15,10 +15,7 @@ import "tiny-slider/dist/tiny-slider.css";
 // extra css
 import "./globals.css";
 
-import { Rubik, Teko, Barlow, Jost, DM_Sans } from 'next/font/google';
-import { Roboto_Condensed } from 'next/font/google';
-import { Kumbh_Sans } from 'next/font/google';
-import { Shadows_Into_Light } from 'next/font/google';
+import { Rubik, Teko } from 'next/font/google';
 import { DESCRIPTION, KEYWORDS, TITLE } from "@/data/titles";
 
 const rubik = Rubik({
@@ -26,62 +23,15 @@ const rubik = Rubik({
     weight: ['300', '400', '500', '600', '700'],
     style: ['normal', 'italic'],
     variable: '--font-rubik',
-    display: 'swap',
+    // display: 'swap',
 });
 
 const teko = Teko({
     subsets: ['latin'],
     weight: ['300', '400', '500', '600', '700'],
     variable: '--font-teko',
-    display: 'swap',
+    // display: 'swap',
 });
-
-const robotoCondensed = Roboto_Condensed({
-    subsets: ['latin'],
-    weight: ['300', '400', '700'],
-    style: ['normal', 'italic'],
-    variable: '--font-roboto-condensed',
-    display: 'swap',
-});
-
-const barlow = Barlow({
-    subsets: ['latin'],
-    weight: ['200', '300', '400', '500', '600', '700', '800', '900'],
-    style: ['normal', 'italic'],
-    variable: '--font-barlow',
-    display: 'swap',
-});
-
-const jost = Jost({
-    subsets: ['latin'],
-    weight: ['300', '400', '500', '600', '700', '800', '900'],
-    style: ['normal', 'italic'],
-    variable: '--font-jost',
-    display: 'swap',
-});
-
-const kumbhSans = Kumbh_Sans({
-    subsets: ['latin'],
-    weight: ['300', '400', '600', '700', '800', '900'],
-    variable: '--font-kumbh-sans',
-    display: 'swap',
-});
-
-const dmSans = DM_Sans({
-    subsets: ['latin'],
-    weight: ['400', '500', '700'],
-    style: ['normal', 'italic'],
-    variable: '--font-dm-sans',
-    display: 'swap',
-});
-
-const shadowsIntoLight = Shadows_Into_Light({
-    subsets: ['latin'],
-    weight: ['400'],
-    variable: '--font-shadows-into-light',
-    display: 'swap',
-});
-
 
 export const metadata = {
     title: TITLE,
@@ -123,12 +73,6 @@ export default function RootLayout({ children }) {
         <html lang="fr" className={`
             ${rubik.variable} 
             ${teko.variable} 
-            ${robotoCondensed.variable}
-            ${barlow.variable}
-            ${jost.variable}
-            ${kumbhSans.variable}
-            ${dmSans.variable}
-            ${shadowsIntoLight.variable}
         `}>
             <body>
                 <ContextProvider>
