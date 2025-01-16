@@ -26,12 +26,14 @@ const rubik = Rubik({
     weight: ['300', '400', '500', '600', '700'],
     style: ['normal', 'italic'],
     variable: '--font-rubik',
+    display: 'swap',
 });
 
 const teko = Teko({
     subsets: ['latin'],
     weight: ['300', '400', '500', '600', '700'],
     variable: '--font-teko',
+    display: 'swap',
 });
 
 const robotoCondensed = Roboto_Condensed({
@@ -39,6 +41,7 @@ const robotoCondensed = Roboto_Condensed({
     weight: ['300', '400', '700'],
     style: ['normal', 'italic'],
     variable: '--font-roboto-condensed',
+    display: 'swap',
 });
 
 const barlow = Barlow({
@@ -46,6 +49,7 @@ const barlow = Barlow({
     weight: ['200', '300', '400', '500', '600', '700', '800', '900'],
     style: ['normal', 'italic'],
     variable: '--font-barlow',
+    display: 'swap',
 });
 
 const jost = Jost({
@@ -53,12 +57,14 @@ const jost = Jost({
     weight: ['300', '400', '500', '600', '700', '800', '900'],
     style: ['normal', 'italic'],
     variable: '--font-jost',
+    display: 'swap',
 });
 
 const kumbhSans = Kumbh_Sans({
     subsets: ['latin'],
     weight: ['300', '400', '600', '700', '800', '900'],
     variable: '--font-kumbh-sans',
+    display: 'swap',
 });
 
 const dmSans = DM_Sans({
@@ -66,12 +72,14 @@ const dmSans = DM_Sans({
     weight: ['400', '500', '700'],
     style: ['normal', 'italic'],
     variable: '--font-dm-sans',
+    display: 'swap',
 });
 
 const shadowsIntoLight = Shadows_Into_Light({
     subsets: ['latin'],
     weight: ['400'],
     variable: '--font-shadows-into-light',
+    display: 'swap',
 });
 
 
