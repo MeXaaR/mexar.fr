@@ -1,6 +1,7 @@
 export const makeOrgMigration = {
     title: "Migration de Make.org",
     clients: "Make.org",
+    link: "https://make.org",
     image: "/images/gallery/make.jpg",
     images: ["make.jpg"],
     preview: "Site internet",

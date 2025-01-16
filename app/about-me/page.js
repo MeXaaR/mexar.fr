@@ -9,6 +9,7 @@ import SponsorsSection from "@/components/SponsorsSection";
 import TestimonialSectionPage from "@/components/TestimonialSectionPage";
 import React from "react";
 import { aboutMeOne } from "@/data/aboutSection";
+import { TITLE } from "@/data/titles";
 
 export const metadata = {
   title: `À Propos | ${aboutMeOne.title} | ${TITLE}`,

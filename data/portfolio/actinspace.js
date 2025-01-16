@@ -1,6 +1,7 @@
 export const actinspace = {
     title: "ActInSpace Toulouse",
     clients: "Aerospace Valley",
+    link: "https://actinspace.org",
     image: "/images/gallery/actinspace.jpg",
     images: ["actinspace.jpg"],
     preview: "Application Mobile",

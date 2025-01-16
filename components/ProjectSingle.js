@@ -20,6 +20,7 @@ const ProjectSingle = ({ portfolio }) => {
     features,
     challenges,
     technologies,
+    link,
     portrait
   } = thisProduct?.details || {};
   return (
@@ -79,6 +80,10 @@ const ProjectSingle = ({ portfolio }) => {
                           <strong>Technologies:</strong> <br />
                           {technologies?.join(", ")}
                         </li>
+                        {link && <li>
+                          <strong>Lien:</strong> <br />
+                          <a href={link} target="_blank" rel="noopener noreferrer">{link}</a>
+                        </li>}
                       </ul>
                     </div>
                   </Col>

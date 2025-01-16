@@ -1,6 +1,7 @@
 export const appsEducation = {
     title: "Apps.education.fr",
     clients: "Éducation Nationale",
+    link: "https://apps.education.fr",
     image: "/images/gallery/appseducation.jpg",
     images: ["appseducation.jpg"],
     preview: "Application Web",

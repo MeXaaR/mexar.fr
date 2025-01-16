@@ -1,6 +1,7 @@
 export const marieAure = {
     title: "Marie-Aure",
     clients: "Marie-Aure",
+    link: "https://marie-aure.com",
     image: "/images/gallery/marie.jpg",
     images: ["marie.jpg"],
     preview: "Site Internet",

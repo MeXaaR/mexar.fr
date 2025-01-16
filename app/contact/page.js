@@ -5,6 +5,7 @@ import MobileMenu from "@/components/MobileMenu";
 import Layout from "@/components/Layout";
 import MainFooter from "@/components/MainFooter";
 import React from "react";
+import { KEYWORDS, TITLE } from "@/data/titles";
 
 export const metadata = {
   title: `Contact | ${TITLE}`,

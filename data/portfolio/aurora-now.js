@@ -1,5 +1,6 @@
 export const auroraNow = {
     title: "Aurora Now",
+    link: "https://auroranow.app",
     featured: "auroranow-prez.png",
     image: "/images/gallery/aurora-now-icon.png",
     images: [

@@ -41,7 +41,7 @@ export const portfolioSection = {
       image: "auroranow-prez.png",
       title: "Aurora Now",
       slug: "aurora-now",
-      tagline: "Projet Scientifique",
+      tagline: "Application Mobile",
       filter: ["all", "mobileapp"],
       details: auroraNow
     },
