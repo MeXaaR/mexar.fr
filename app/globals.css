@@ -1,0 +1,45 @@
+
+@import "@/styles/style.css";
+@import "@/styles/hover.css";
+@import "@/styles/responsive.css";
+
+:root {
+  --thm-font: var(--font-teko);
+  --thm-b-font: var(--font-rubik);
+  --thm-black: #222429;
+  --thm-text: #686a6f;
+  --thm-base: #ffaa17;
+  --thm-base-rgb: 255, 170, 23;
+  --thm-black-rgb: 34, 36, 41;
+  --thm-gray: #f4f5f8;
+}
+
+.scroll-to-top {
+  color: var(--thm-black);
+  background-color: var(--thm-base);
+}
+
+.scroll-to-top:hover {
+  background-color: var(--thm-black);
+  color: #ffffff;
+} 
+
+a {
+    text-decoration: none;
+}
+
+.nav-link-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav-link-wrapper .dropdown-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: var(--thm-black);
+}
