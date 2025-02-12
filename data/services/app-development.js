@@ -1,6 +1,7 @@
 const info = {
     id: 2,
     icon: "flaticon-app-development",
+    iconFA: "fa-solid fa-mobile-screen-button",
     href: "/services/app-development",
     title: "Développement\nd'Applications",
     image: "app-development.jpg",

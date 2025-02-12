@@ -2,6 +2,7 @@
 const info = {
     id: 3,
     icon: "flaticon-planning",
+    iconFA: "fa-solid fa-bars-progress",
     href: "/services/project-management",
     title: "Gestion de Projet",
     image: "project-management.jpg",

@@ -1,6 +1,7 @@
 const info = {
     id: 1,
     icon: "flaticon-responsive",
+    iconFA: "fa-solid fa-desktop",
     href: "/services/professional-tools",
     title: "Outils\nProfessionnels",
     image: "protools-1.jpg",

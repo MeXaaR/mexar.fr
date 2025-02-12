@@ -9,11 +9,11 @@ export const servicesSection = {
   title: "Créons ensemble \ndes solutions robustes",
   text: "Avec TypeScript et une documentation claire, la fiabilité et la maintenabilité de vos projets est assurée. Ensemble, transformons vos idées en réalités durables et performantes.",
   services: [
-    typescriptMigration,
-    proTools,
     appDevelopment,
     projectManagement,
     aiSmartCoding,
+    proTools,
+    typescriptMigration,
     freeTools
   ],
 };

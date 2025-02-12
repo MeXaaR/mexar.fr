@@ -1,6 +1,7 @@
 const info = {
     id: 5,
     icon: "flaticon-monitor",
+    iconFA: "fa-solid fa-code",
     href: "/services/typescript-migration",
     title: "Migration\nTypeScript",
     image: "typescript-migration.jpg",

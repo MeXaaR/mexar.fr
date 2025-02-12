@@ -2,20 +2,27 @@ import { servicesSection } from "./services/index";
 
 export const socials = [
   {
-    id: 3,
-    icon: "fab fa-linkedin",
-    href: "https://www.linkedin.com/in/fran%C3%A7ois-aubeut-85b213319/",
+    id: 1,
+    icon: "fa-brands fa-github",
+    href: "https://github.com/MeXaaR",
+    color: "grey",
+    title: "GitHub",
   },
   {
-    id: 1,
-    icon: "fab fa-github",
-    href: "https://github.com/MeXaaR/",
+    id: 2,
+    icon: "fa-brands fa-malt",
+    imgSrc: "/assets/img/malt.png",
+    href: "https://malt.fr/profile/francoisaubeutgervaise?",
+    color: "#1C9CEA",
+    title: "Malt",
   },
-  // {
-  //   id: 2,
-  //   icon: "fab fa-facebook",
-  //   href: "#",
-  // },
+  {
+    id: 4,
+    icon: "fa-brands fa-linkedin-in",
+    href: "https://www.linkedin.com/in/francois-aubeut/",
+    color: "#144679",
+    title: "LinkedIn",
+  },
 ];
 
 const headerData = {
@@ -62,7 +69,7 @@ const headerData = {
   address: "60 rue François 1er PARIS",
   phone: "+33 7 68 98 3000",
   phone2: "+33 7 68 98 3000",
-  email: "contact@mexar.com",
+  email: "contact@mexar.fr",
   icon: "/images/icons/close-1-1.png",
   socials,
   text: "Mexar est une agence digitale spécialisée dans la création d'application mobiles et d'outils professionnels. Votre produit sera livré avec un code solidement documenté",

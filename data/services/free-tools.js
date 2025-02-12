@@ -1,6 +1,7 @@
 const info = {
     id: 6,
     icon: "flaticon-computer",
+    iconFA: "fa-solid fa-screwdriver-wrench",
     href: "/services/free-tools",
     title: "Créateur\nd'Outils Gratuits",
     image: "free-tools.jpg",

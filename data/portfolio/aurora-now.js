@@ -13,7 +13,7 @@ export const auroraNow = {
     text: "Aurora Now est une application mobile qui fournit des données en temps réel sur le vent solaire et les aurores boréales. Elle permet aux utilisateurs de suivre les conditions météorologiques spatiales et de prévoir les aurores grâce à des graphiques interactifs et des cartes de couverture.",
     text2: "Développée avec React Native et Expo, l'application utilise des services tels que Mapbox pour la cartographie et Firebase pour l'authentification anonyme. Elle est conçue pour offrir une expérience utilisateur fluide et intuitive, avec des notifications en temps réel et une interface multilingue.",
     clients: "Projet Personnel",
-    date: "Version 1.0.1 en Janvier 2025",
+    date: "Version 1.0.4 en Février 2025",
     category: "Application mobile",
     categories: ["Science", "Météorologie", "Cartographie"],
     features: [

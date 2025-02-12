@@ -46,15 +46,6 @@ export const portfolioSection = {
       details: auroraNow
     },
     {
-      id: 1,
-      image: "lacartonomades-icon.png",
-      title: "La Carto'Nomades",
-      slug: "lacartonomades",
-      tagline: "Projet Communautaire",
-      filter: ["all", "mobileapp"],
-      details: lacartonomades
-    },
-    {
       id: 2,
       image: "labdata.jpg",
       title: "LabData Carrier",
@@ -62,15 +53,6 @@ export const portfolioSection = {
       tagline: "Visualisation de données",
       filter: ["all", "webapp", "solutions"],
       details: carrierWebApp
-    },
-    {
-      id: 3,
-      image: "marie.jpg",
-      title: "Marie-Aure",
-      slug: "marie-aure",
-      tagline: "Photographe",
-      filter: ["all", "website"],
-      details: marieAure
     },
     {
       id: 4,
@@ -89,6 +71,24 @@ export const portfolioSection = {
       tagline: "Plateforme d'Outils Gouvernementaux",
       filter: ["all", "webapp", "solutions"],
       details: appsEducation
+    },
+    {
+      id: 1,
+      image: "lacartonomades-icon.png",
+      title: "La Carto'Nomades",
+      slug: "lacartonomades",
+      tagline: "Projet Communautaire",
+      filter: ["all", "mobileapp"],
+      details: lacartonomades
+    },
+    {
+      id: 3,
+      image: "marie.jpg",
+      title: "Marie-Aure",
+      slug: "marie-aure",
+      tagline: "Photographe",
+      filter: ["all", "website"],
+      details: marieAure
     },
     {
       id: 6,

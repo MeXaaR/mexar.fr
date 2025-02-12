@@ -2,6 +2,7 @@
 const info = {
     id: 4,
     icon: "flaticon-laptop",
+    iconFA: "fa-solid fa-robot",
     href: "/services/ai-smart-coding",
     title: "Smart Coding\navec l'IA",
     image: "ai-smart-coding.jpg",
