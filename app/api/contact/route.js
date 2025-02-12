@@ -1,5 +1,4 @@
 import contactInfos from "@/data/contactInfos";
-import { NextResponse } from "next/server";
 
 export async function GET(request) {
     const apiKey = process.env.API_KEY;
@@ -12,7 +11,9 @@ export async function GET(request) {
         );
     }
 
-    return NextResponse.json({
-        contact: contactInfos,
-    });
+    return new Response(
+        JSON.stringify({
+            contact: contactInfos,
+        })
+    );
 }
