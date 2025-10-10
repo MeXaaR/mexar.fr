@@ -5,16 +5,6 @@ import Image from "next/image"
 
 const projects = [
   {
-    title: "Memixo",
-    description:
-      "Plateforme SaaS de capsules temporelles numériques permettant de créer, stocker et partager des souvenirs qui se déverrouillent automatiquement à une date choisie avec chiffrement et gestion des destinataires.",
-    image: "/digital-time-capsule-memories-photos-emotional-mom.jpg",
-    tags: ["Next.js", "TypeScript", "Scaleway", "Scalingo"],
-    category: "Application Web",
-    link: "https://memixo.com",
-    date: "2024-2025",
-  },
-  {
     title: "Aurora Now",
     description:
       "Application mobile qui fournit des données en temps réel sur le vent solaire et les aurores boréales avec graphiques interactifs et cartes de couverture.",
@@ -86,6 +76,16 @@ const projects = [
     client: "Marie-Aure",
     link: "https://marie-aure.com",
     date: "2023-2024",
+  },  
+  {
+    title: "Memixo",
+    description:
+      "Plateforme SaaS de capsules temporelles numériques permettant de créer, stocker et partager des souvenirs qui se déverrouillent automatiquement à une date choisie avec chiffrement et gestion des destinataires.",
+    image: "/digital-time-capsule-memories-photos-emotional-mom.jpg",
+    tags: ["Next.js", "TypeScript", "Scaleway", "Scalingo"],
+    category: "Application Web",
+    link: "https://memixo.com",
+    date: "2024-2025",
   },
 ]
 
