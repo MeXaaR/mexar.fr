@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { ExternalLink } from "lucide-react"
+import { ExternalLink } from 'lucide-react'
 import Image from "next/image"
 
 const projects = [
@@ -86,6 +86,16 @@ const projects = [
     category: "Application Web",
     link: "https://memixo.com",
     date: "2024-2025",
+  },
+  {
+    title: "Programme Phoenix",
+    description:
+      "Programme accéléré de refonte d'outils métiers vieillissants (Legacy) vers une stack moderne. Passez d'un système instable à une application web maintenable, documentée et performante en 90 jours.",
+    image: "/programme-phoenix-modern-code-refactoring-architectu.jpg",
+    tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "React"],
+    category: "Refonte & Modernisation",
+    link: "https://programme-phoenix.vercel.app",
+    date: "2025",
   },
 ]
 
