@@ -3,7 +3,6 @@ import { Hero } from "@/components/hero"
 import { Methodology } from "@/components/methodology"
 import { Portfolio } from "@/components/portfolio"
 import { Testimonials } from "@/components/testimonials"
-import { Pricing } from "@/components/pricing"
 import { FAQ } from "@/components/faq"
 import { FinalCTA } from "@/components/final-cta"
 import { Footer } from "@/components/footer"
@@ -17,7 +16,6 @@ export default function Home() {
         <Methodology />
         <Portfolio />
         <Testimonials />
-        <Pricing />
         <FAQ />
         <FinalCTA />
         <Footer />
