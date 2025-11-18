@@ -9,18 +9,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  async rewrites() {
-    return [
-      {
-        source: '/programme-phoenix',
-        destination: 'https://programme-phoenix.vercel.app',
-      },
-      {
-        source: '/programme-phoenix/:path*',
-        destination: 'https://programme-phoenix.vercel.app/:path*',
-      },
-    ]
-  },
 }
 
 export default nextConfig

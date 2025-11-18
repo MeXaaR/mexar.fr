@@ -5,6 +5,16 @@ import Image from "next/image"
 
 const projects = [
   {
+    title: "VoiCal",
+    description:
+      "Application de suivi nutritionnel par la voix. Dites simplement ce que vous mangez et l'IA calcule instantanément calories et macros. Une approche sans friction, sans photos ni bases de données manuelles.",
+    image: "/mobile-app-voice-calorie-tracker-ai-interface-dark-mo.jpg",
+    tags: ["React Native", "Expo", "AI", "TypeScript"],
+    category: "Application Mobile",
+    link: "https://www.voical.app/",
+    date: "2025",
+  },
+  {
     title: "Aurora Now",
     description:
       "Application mobile qui fournit des données en temps réel sur le vent solaire et les aurores boréales avec graphiques interactifs et cartes de couverture.",
@@ -94,7 +104,7 @@ const projects = [
     image: "/programme-phoenix-modern-code-refactoring-architectu.jpg",
     tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "React"],
     category: "Refonte & Modernisation",
-    link: "https://programme-phoenix.vercel.app",
+    link: "https://phoenix.mexar.fr",
     date: "2025",
   },
 ]

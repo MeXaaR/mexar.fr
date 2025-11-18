@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description:
     "Expert en développement fullstack TypeScript. Création d'applications web modernes, scalables et optimisées pour startups et PME.",
   generator: "v0.app",
+  icons: {
+    icon: "/favicon.png",
+  },
 }
 
 export default function RootLayout({
