@@ -1,25 +1,29 @@
 import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
-import { Methodology } from "@/components/methodology"
-import { Portfolio } from "@/components/portfolio"
-import { Testimonials } from "@/components/testimonials"
-import { FAQ } from "@/components/faq"
-import { FinalCTA } from "@/components/final-cta"
+import { ProblemSection } from "@/components/problem-section"
+import { ApproachSection } from "@/components/approach-section"
+import { ServicesSection } from "@/components/services-section"
+import { ProjectsSection } from "@/components/projects-section"
+import { TestimonialsSection } from "@/components/testimonials-section"
+import { DifferentiatorsSection } from "@/components/differentiators-section"
+import { FaqSection } from "@/components/faq-section"
+import { FinalCtaSection } from "@/components/final-cta-section"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
   return (
-    <>
+    <main className="min-h-screen bg-background">
       <Header />
-      <main className="min-h-screen pt-16">
-        <Hero />
-        <Methodology />
-        <Portfolio />
-        <Testimonials />
-        <FAQ />
-        <FinalCTA />
-        <Footer />
-      </main>
-    </>
+      <Hero />
+      <ProblemSection />
+      <ApproachSection />
+      <ServicesSection />
+      <ProjectsSection />
+      <TestimonialsSection />
+      <DifferentiatorsSection />
+      <FaqSection />
+      <FinalCtaSection />
+      <Footer />
+    </main>
   )
 }
