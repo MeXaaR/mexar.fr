@@ -1,0 +1,230 @@
+{
+  "fr": {
+    "supportPage": {
+      "metaTitle": "Support — MEXAR",
+      "metaDesc": "Centre d’assistance MEXAR. Besoin d’aide pour l’une de nos applications ? Consultez notre FAQ ou contactez-nous.",
+      "label": "Support",
+      "backHome": "Retour à l’accueil",
+      "helpCenter": "Centre d’assistance",
+      "helpDesc": "Besoin d’aide pour l’une de nos applications ?",
+      "contactUs": "Contactez-nous",
+      "contactUsDesc": "Pour toute question, rapport de bug ou suggestion.",
+      "responseTime": "Délai de réponse",
+      "responseValue": "24-48h ouvrées",
+      "faqTitle": "FAQ par application",
+      "otherRequest": "Autre demande",
+      "otherRequestDesc": "Pour toute question non liée à une application spécifique, contactez-nous directement :"
+    },
+    "privacy": {
+      "label": "Confidentialité",
+      "title": "Politique de confidentialité",
+      "lastUpdated": "Dernière mise à jour : 17 février 2026",
+      "intro": "Chez MEXAR, nous attachons une grande importance à la protection de vos données personnelles. Cette politique de confidentialité s’applique à l’ensemble de nos applications mobiles et services associés.",
+      "section1Title": "1. Responsable du traitement",
+      "section1Content": "MEXAR, société basée à Paris, France, est responsable du traitement de vos données personnelles. Pour toute question relative à la confidentialité, vous pouvez nous contacter à l’adresse contact@mexar.fr.",
+      "section2Title": "2. Données collectées",
+      "section2Content": "Nos applications peuvent collecter les données suivantes en fonction de leur fonctionnalité :",
+      "section2Items": [
+        "Données d’utilisation anonymisées (analytics) pour améliorer nos services",
+        "Préférences utilisateur (langue, thème, paramètres de notification)",
+        "Données saisies par l’utilisateur dans le cadre des fonctionnalités de l’application",
+        "Identifiants techniques (identifiant d’appareil anonymisé)",
+        "Données de localisation (uniquement si vous avez donné votre consentement explicite)"
+      ],
+      "section3Title": "3. Finalités du traitement",
+      "section3Content": "Vos données sont traitées pour les finalités suivantes :",
+      "section3Items": [
+        "Fournir et améliorer les fonctionnalités de nos applications",
+        "Personnaliser votre expérience utilisateur",
+        "Envoyer des notifications liées au fonctionnement de l’application",
+        "Analyser l’utilisation de nos services de manière agrégée et anonymisée",
+        "Répondre à vos demandes de support"
+      ],
+      "section4Title": "4. Base légale du traitement",
+      "section4Content": "Le traitement de vos données repose sur votre consentement (article 6.1.a du RGPD), l’exécution du contrat d’utilisation (article 6.1.b) et notre intérêt légitime à améliorer nos services (article 6.1.f).",
+      "section5Title": "5. Partage des données",
+      "section5Content": "Nous ne vendons jamais vos données personnelles. Nous pouvons partager des données anonymisées avec :",
+      "section5Items": [
+        "Des services d’analyse (ex. : analytics agrégées)",
+        "Des prestataires d’hébergement et d’infrastructure technique",
+        "Les plateformes de distribution (Apple App Store, Google Play) pour la gestion des abonnements"
+      ],
+      "section6Title": "6. Conservation des données",
+      "section6Content": "Vos données sont conservées aussi longtemps que votre compte est actif ou que nécessaire pour fournir nos services. Les données d’analytics anonymisées sont conservées pendant une durée maximale de 26 mois.",
+      "section7Title": "7. Vos droits",
+      "section7Content": "Conformément au RGPD, vous disposez des droits suivants :",
+      "section7Items": [
+        "Droit d’accès à vos données personnelles",
+        "Droit de rectification des données inexactes",
+        "Droit à l’effacement de vos données",
+        "Droit à la portabilité de vos données",
+        "Droit d’opposition au traitement",
+        "Droit de retirer votre consentement à tout moment"
+      ],
+      "section7Outro": "Pour exercer ces droits, contactez-nous à contact@mexar.fr. Nous répondrons dans un délai de 30 jours.",
+      "section8Title": "8. Sécurité",
+      "section8Content": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données contre tout accès non autorisé, perte ou altération.",
+      "section9Title": "9. Modifications",
+      "section9Content": "Nous nous réservons le droit de modifier cette politique de confidentialité. Toute modification sera publiée sur cette page avec une date de mise à jour révisée.",
+      "section10Title": "10. Contact",
+      "section10Content": "Pour toute question concernant cette politique de confidentialité ou le traitement de vos données, contactez-nous :",
+      "contactEmail": "contact@mexar.fr",
+      "contactAddress": "MEXAR — Paris, France"
+    },
+    "faq": {
+      "published": "Publiée",
+      "unfed": {
+        "description": "App de jeûne intermittent avec visualisation des phases métaboliques",
+        "q1": "Comment configurer les notifications de fin de jeûne ?",
+        "a1": "Rendez-vous dans Réglages > Notifications et activez les alertes de fin de jeûne. Vous pouvez personnaliser le délai de rappel avant la fin de votre période de jeûne.",
+        "q2": "Comment utiliser les widgets iOS et Android ?",
+        "a2": "Sur iOS, maintenez l’écran d’accueil enfoncé, appuyez sur le ‘+’ et cherchez Unfed. Sur Android, maintenez l’écran d’accueil et sélectionnez Widgets > Unfed.",
+        "q3": "Comment passer de la version gratuite à la version PRO ?",
+        "a3": "Ouvrez l’application, allez dans Réglages > Abonnement et sélectionnez le plan PRO. L’abonnement sera géré via votre compte App Store ou Google Play.",
+        "q4": "Comment suivre mes phases métaboliques en détail ?",
+        "a4": "La visualisation des phases métaboliques est accessible depuis l’écran principal pendant un jeûne actif. Appuyez sur le cercle de progression pour voir le détail de chaque phase."
+      },
+      "voical": {
+        "description": "Tracking calories par voix avec 95% de précision en 15 secondes",
+        "q1": "Comment fonctionne la reconnaissance vocale ?",
+        "a1": "VoiCal utilise un modèle de reconnaissance vocale qui analyse votre description d’aliment et identifie automatiquement les ingrédients, portions et valeurs nutritionnelles correspondantes."
+      },
+      "shrimpkeeper": {
+        "description": "App mobile pour passionnés de crevettes d’aquarium d’eau douce",
+        "q1": "Comment ajouter une nouvelle espèce de crevette ?",
+        "a1": "Dans l’onglet Collection, appuyez sur le bouton ‘+’ et sélectionnez l’espèce dans le catalogue ou créez une entrée personnalisée avec les paramètres d’eau recommandés.",
+        "q2": "Comment exporter mes données d’élevage ?",
+        "a2": "Allez dans Réglages > Données > Exporter. Vous pouvez choisir le format CSV ou PDF pour l’export de vos données d’élevage et de paramètres d’eau.",
+        "q3": "Comment fonctionne le suivi des paramètres TDS ?",
+        "a3": "Entrez vos relevés TDS dans la section Paramètres de chaque aquarium. L’application génère des graphiques d’évolution et vous alerte si les valeurs sortent de la plage recommandée.",
+        "q4": "Comment contacter le support technique ?",
+        "a4": "Envoyez un email à support@mexar.fr en précisant le nom de l’application et une description détaillée de votre problème. Nous répondons sous 24-48h ouvrées."
+      },
+      "aurora": {
+        "description": "Alertes aurores boréales 40 minutes à l’avance",
+        "q1": "Comment changer mes préférences de localisation ?",
+        "a1": "Ouvrez Réglages > Localisation et sélectionnez votre position manuellement ou activez la géolocalisation automatique pour des alertes adaptées à votre emplacement actuel.",
+        "q2": "Comment ajouter une nouvelle localisation pour les alertes ?",
+        "a2": "Dans Réglages > Localisations, appuyez sur ‘Ajouter un lieu’ et recherchez la ville ou les coordonnées GPS souhaitées. Vous pouvez avoir jusqu’à 5 localisations actives.",
+        "q3": "Comment fonctionne la précision des prévisions ?",
+        "a3": "Nos prévisions s’appuient sur les données solaires en temps réel (indice Kp, vitesse du vent solaire) pour estimer la probabilité d’aurores boréales visibles à votre position.",
+        "q4": "Comment signaler une erreur de localisation ?",
+        "a4": "Envoyez un email à support@mexar.fr avec les coordonnées GPS concernées et une description de l’erreur. Nous corrigerons les données dans les meilleurs délais."
+      }
+    }
+  },
+  "en": {
+    "supportPage": {
+      "metaTitle": "Support — MEXAR",
+      "metaDesc": "MEXAR Help Center. Need help with one of our applications? Check our FAQ or contact us.",
+      "label": "Support",
+      "backHome": "Back to home",
+      "helpCenter": "Help Center",
+      "helpDesc": "Need help with one of our applications?",
+      "contactUs": "Contact us",
+      "contactUsDesc": "For any question, bug report or suggestion.",
+      "responseTime": "Response time",
+      "responseValue": "24-48 business hours",
+      "faqTitle": "FAQ by application",
+      "otherRequest": "Other request",
+      "otherRequestDesc": "For any question not related to a specific application, contact us directly:"
+    },
+    "privacy": {
+      "label": "Privacy",
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: February 17, 2026",
+      "intro": "At MEXAR, we place great importance on the protection of your personal data. This privacy policy applies to all of our mobile applications and associated services.",
+      "section1Title": "1. Data Controller",
+      "section1Content": "MEXAR, a company based in Paris, France, is the data controller for your personal data. For any privacy-related questions, you can contact us at contact@mexar.fr.",
+      "section2Title": "2. Data Collected",
+      "section2Content": "Our applications may collect the following data depending on their functionality:",
+      "section2Items": [
+        "Anonymized usage data (analytics) to improve our services",
+        "User preferences (language, theme, notification settings)",
+        "Data entered by the user as part of the application's features",
+        "Technical identifiers (anonymized device identifier)",
+        "Location data (only if you have given your explicit consent)"
+      ],
+      "section3Title": "3. Purposes of Processing",
+      "section3Content": "Your data is processed for the following purposes:",
+      "section3Items": [
+        "Providing and improving the features of our applications",
+        "Personalizing your user experience",
+        "Sending notifications related to the operation of the application",
+        "Analyzing the use of our services in an aggregated and anonymized manner",
+        "Responding to your support requests"
+      ],
+      "section4Title": "4. Legal Basis for Processing",
+      "section4Content": "The processing of your data is based on your consent (Article 6.1.a of the GDPR), the performance of the usage contract (Article 6.1.b) and our legitimate interest in improving our services (Article 6.1.f).",
+      "section5Title": "5. Data Sharing",
+      "section5Content": "We never sell your personal data. We may share anonymized data with:",
+      "section5Items": [
+        "Analytics services (e.g., aggregated analytics)",
+        "Hosting and technical infrastructure providers",
+        "Distribution platforms (Apple App Store, Google Play) for subscription management"
+      ],
+      "section6Title": "6. Data Retention",
+      "section6Content": "Your data is retained as long as your account is active or as necessary to provide our services. Anonymized analytics data is retained for a maximum period of 26 months.",
+      "section7Title": "7. Your Rights",
+      "section7Content": "In accordance with the GDPR, you have the following rights:",
+      "section7Items": [
+        "Right of access to your personal data",
+        "Right to rectify inaccurate data",
+        "Right to erasure of your data",
+        "Right to data portability",
+        "Right to object to processing",
+        "Right to withdraw your consent at any time"
+      ],
+      "section7Outro": "To exercise these rights, contact us at contact@mexar.fr. We will respond within 30 days.",
+      "section8Title": "8. Security",
+      "section8Content": "We implement appropriate technical and organizational measures to protect your data against unauthorized access, loss or alteration.",
+      "section9Title": "9. Changes",
+      "section9Content": "We reserve the right to modify this privacy policy. Any changes will be published on this page with a revised update date.",
+      "section10Title": "10. Contact",
+      "section10Content": "For any questions regarding this privacy policy or the processing of your data, contact us:",
+      "contactEmail": "contact@mexar.fr",
+      "contactAddress": "MEXAR — Paris, France"
+    },
+    "faq": {
+      "published": "Published",
+      "unfed": {
+        "description": "Intermittent fasting app with metabolic phase visualization",
+        "q1": "How do I set up end-of-fast notifications?",
+        "a1": "Go to Settings > Notifications and enable end-of-fast alerts. You can customize the reminder delay before the end of your fasting period.",
+        "q2": "How do I use the iOS and Android widgets?",
+        "a2": "On iOS, long-press your home screen, tap '+' and search for Unfed. On Android, long-press your home screen and select Widgets > Unfed.",
+        "q3": "How do I upgrade from the free version to PRO?",
+        "a3": "Open the app, go to Settings > Subscription and select the PRO plan. The subscription will be managed through your App Store or Google Play account.",
+        "q4": "How do I track my metabolic phases in detail?",
+        "a4": "Metabolic phase visualization is accessible from the main screen during an active fast. Tap the progress circle to see the detail of each phase."
+      },
+      "voical": {
+        "description": "Voice calorie tracking with 95% accuracy in 15 seconds",
+        "q1": "How does voice recognition work?",
+        "a1": "VoiCal uses a voice recognition model that analyzes your food description and automatically identifies the corresponding ingredients, portions and nutritional values."
+      },
+      "shrimpkeeper": {
+        "description": "Mobile app for freshwater aquarium shrimp enthusiasts",
+        "q1": "How do I add a new shrimp species?",
+        "a1": "In the Collection tab, tap the '+' button and select the species from the catalog or create a custom entry with recommended water parameters.",
+        "q2": "How do I export my breeding data?",
+        "a2": "Go to Settings > Data > Export. You can choose CSV or PDF format for exporting your breeding data and water parameters.",
+        "q3": "How does TDS parameter tracking work?",
+        "a3": "Enter your TDS readings in the Parameters section of each aquarium. The app generates evolution charts and alerts you if values go outside the recommended range.",
+        "q4": "How do I contact technical support?",
+        "a4": "Send an email to support@mexar.fr specifying the application name and a detailed description of your issue. We respond within 24-48 business hours."
+      },
+      "aurora": {
+        "description": "Northern lights alerts 40 minutes in advance",
+        "q1": "How do I change my location preferences?",
+        "a1": "Open Settings > Location and select your position manually or enable automatic geolocation for alerts adapted to your current location.",
+        "q2": "How do I add a new location for alerts?",
+        "a2": "In Settings > Locations, tap 'Add a location' and search for the desired city or GPS coordinates. You can have up to 5 active locations.",
+        "q3": "How does forecast accuracy work?",
+        "a3": "Our forecasts rely on real-time solar data (Kp index, solar wind speed) to estimate the probability of northern lights visible at your position.",
+        "q4": "How do I report a location error?",
+        "a4": "Send an email to support@mexar.fr with the GPS coordinates concerned and a description of the error. We will correct the data as soon as possible."
+      }
+    }
+  }
+}
