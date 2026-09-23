@@ -1,0 +1,11 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {calculateCapacity} from '../site/roi.mjs';
+const base={people:5,currentHours:4,targetHours:1,rate:45};
+test('Weekly hours, monthly average and annual value',()=>assert.deepEqual(calculateCapacity(base),{hours:15,monthlyValue:2925,annualValue:35100}));
+test('Quarter-hour precision',()=>assert.deepEqual(calculateCapacity({...base,currentHours:1,targetHours:.75}),{hours:1.25,monthlyValue:243.75,annualValue:2925}));
+test('Equal or longer target never creates a positive gain',()=>{for(const targetHours of [4,6])assert.deepEqual(calculateCapacity({...base,targetHours}),{hours:0,monthlyValue:0,annualValue:0});});
+test('Decimal rate is not rounded before annual conversion',()=>{const r=calculateCapacity({...base,targetHours:0,rate:45.5});assert.equal(r.hours,20);assert.equal(r.annualValue,47320);assert.equal(r.monthlyValue*12,r.annualValue);});
+test('Zero rate preserves hours',()=>assert.deepEqual(calculateCapacity({...base,rate:0}),{hours:15,monthlyValue:0,annualValue:0}));
+test('Maximum sliders retain valid amounts',()=>{const r=calculateCapacity({people:50,currentHours:40,targetHours:0,rate:1000});assert.equal(r.hours,2000);assert.equal(r.annualValue,104000000);assert.ok(Number.isFinite(r.monthlyValue));});
+test('Invalid inputs rejected',()=>{for(const change of [{currentHours:NaN},{rate:-1},{people:0},{targetHours:-1}])assert.throws(()=>calculateCapacity({...base,...change}),RangeError);});
